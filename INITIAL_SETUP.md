@@ -93,7 +93,8 @@ This test ensures that your Jupyter environment is working and that the API key 
     from dotenv import load_dotenv 
 
     # This command loads the variables from the .env file
-    load_dotenv('Your .env full path here') 
+    env_path = r'.env full path here'
+    load_dotenv(env_path) 
 
     # We now try to get the API key
     api_key = os.getenv("OPENAI_API_KEY")
