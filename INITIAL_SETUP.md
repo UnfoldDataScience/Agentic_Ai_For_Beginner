@@ -84,9 +84,9 @@ This test ensures that your Jupyter environment is working and that the API key 
 
 3.  **Run the Test Code:**
     * Open your terminal or Anaconda Prompt and run the following command:
-    pip install python-dotenv
+      pip install python-dotenv
 
-    *Now, In the first code cell of Jupyter notebbok, paste the following Python code:
+    * Now, In the first code cell of Jupyter notebbok, paste the following Python code:
 
     ```python
     import os
