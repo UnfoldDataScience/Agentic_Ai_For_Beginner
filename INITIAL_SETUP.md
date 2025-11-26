@@ -71,3 +71,49 @@ It is crucial **never to save your secret API key directly in your code files**.
     * The Python code in this course will automatically read the key from the `.env` file for secure use (Just ensure you give the right path)
   
 The video, [OpenAI: How To Generate API Keys](https://www.youtube.com/watch?v=Lj43aSwNpog), provides a visual walkthrough of the process for generating, saving, and managing your OpenAI API keys.
+
+## 3. Final Setup Test: Running Code and Checking Keys
+
+This test ensures that your Jupyter environment is working and that the API key is being loaded correctly from your `.env` file.
+
+1.  **Launch Jupyter:**
+    * Open **Anaconda Navigator** and launch **Jupyter Notebook**. (Alternative via command prompt)
+
+2.  **Open or Create a Notebook:**
+    * Click **New** in the top-right corner and select **Python 3** (or the kernel you installed) to create a new notebook.
+
+3.  **Run the Test Code:**
+    * Open your terminal or Anaconda Prompt and run the following command:
+    pip install python-dotenv
+
+    *Now, In the first code cell of Jupyter notebbok, paste the following Python code:
+
+    ```python
+    import os
+    from dotenv import load_dotenv 
+
+    # This command loads the variables from the .env file
+    load_dotenv() 
+
+    # We now try to get the API key
+    api_key = os.getenv("OPENAI_API_KEY")
+
+    if api_key:
+        print("Success! Your OpenAI API key was loaded correctly.")
+        print(f"Key starts with: {api_key[:5]}...")
+    else:
+        print("Failure! The key was NOT loaded. Please check your .env file.")
+        print("Make sure you are running the notebook from the same directory as the .env file.")
+    ```
+
+    * Click the **Run** button (or press `Shift + Enter`) to execute the code.
+
+5.  **Verify the Output:**
+    * **Success** will look like this (you should see the first 5 characters of your key):
+        ```
+        Success! Your OpenAI API key was loaded correctly.
+        Key starts with: sk-xx...
+        ```
+    * **Failure** means you need to re-check the spelling of the file (`.env`), the variable name (`OPENAI_API_KEY`), and that the notebook is running in the correct location.
+
+Congratulations! If you see the **Success** message, your environment is ready for the course!
