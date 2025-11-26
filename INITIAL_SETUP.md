@@ -97,7 +97,6 @@ This test ensures that your Jupyter environment is working and that the API key 
     load_dotenv(env_path)
 
     #sample code for above step(commented intentionally)
-    #from dotenv import load_dotenv
     #env_path = r'E:\YTReusable\.env'
     #load_dotenv(env_path)
 
