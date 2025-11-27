@@ -69,8 +69,6 @@ It is crucial **never to save your secret API key directly in your code files**.
 
 3.  **Accessing the Key in Code:**
     * The Python code in this course will automatically read the key from the `.env` file for secure use (Just ensure you give the right path)
-  
-The video, [OpenAI: How To Generate API Keys](https://www.youtube.com/watch?v=Lj43aSwNpog), provides a visual walkthrough of the process for generating, saving, and managing your OpenAI API keys.
 
 ## 3. Final Setup Test: Running Code and Checking Keys
 
