@@ -20,12 +20,18 @@ Step 2 - Actiavte the environemnt
 course_venv\Scripts\activate
  ```
 
-Step 3 - Install jupyter kernel for the virtual environment
+Step 3 - Actiavte the environemnt
+ ```
+pip install -r requirements.txt
+
+ ```
+
+Step 4 - Install jupyter kernel for the virtual environment
  ```
 ipython kernel install --user --name=course_venv
  ```
 
-Step 4 - Select the installed kernel while using jupyter notebook 
+Step 5 - Select the installed kernel while using jupyter notebook 
  ```
 Do this step in Jupyter notebooks
  ```
