@@ -1,4 +1,4 @@
-langchain==0.3.14
+langchain>=0.1.10,<0.2.0
 langchain-community>=0.0.29
 langchain-text-splitters>=0.0.1
 openai==1.59.6
