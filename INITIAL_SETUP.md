@@ -12,7 +12,7 @@ We will use **Anaconda**, a popular distribution for data science, which include
 
 1.  **Download Anaconda:**
     * Go to the official **[Anaconda Distribution website](https://www.anaconda.com/download)**.
-    * Find the installer for your operating system (Windows, macOS, or Linux). Ensure you select the **latest Python version** (e.g., Python 3.11 or newer).
+    * Find the installer for your operating system (Windows, macOS, or Linux). Ensure you select the python 3.10 or 3.11 not any newer version
     * Download the installer file.
 
 2.  **Run the Installer:**
