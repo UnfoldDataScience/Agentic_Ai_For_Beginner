@@ -24,7 +24,7 @@ Please run the installation cell first before executing the notebook.
 This notebook requires the following API keys:
 
 * OPENAI_API_KEY - create here - https://platform.openai.com/login
-* SERPER_API_KEY -
+* SERPER_API_KEY - create here - https://serper.dev/
 ---
 
 # How to Add API Keys in Google Colab
