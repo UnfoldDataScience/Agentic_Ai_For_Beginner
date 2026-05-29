@@ -24,7 +24,7 @@ Please run the installation cell first before executing the notebook.
 This notebook requires the following API keys:
 
 * OPENAI_API_KEY - create here - https://platform.openai.com/login
-* TAVILY_API_KEY - create here - https://app.tavily.com/home
+* TAVILY_API_KEY - create here - https://app.tavily.com/home (TAVILY IS A SUBSTITUTE FOR DUCK DUCK GO SEARCH)
 
 ---
 
