@@ -5,13 +5,10 @@ Google Colab
 ---
 
 # Open Notebook in Google Colab
-
-
 https://colab.research.google.com/github/UnfoldDataScience/Agentic_Ai_For_Beginner/blob/main/Part2/CustomerServiceMAS_Part_2_Colab.ipynb
 
-
 https://colab.research.google.com/github/UnfoldDataScience/Agentic_Ai_For_Beginner/blob/main/Part2/First_Multi_Agent_Part_2_Colab.ipynb
----
+
 
 # Before You Start
 
