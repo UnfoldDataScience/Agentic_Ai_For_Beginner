@@ -9,7 +9,7 @@ For example if "crewai" is needed you can do below
 ## In terminal(command prompt)
 pip install crewai==0.28.8
 
-# For experienced coders (assuming you know about virtual environemt, run below commands)
+# For experienced coders (assuming you know about virtual environemt, run below commands in command prompt or Anaconda prompt)
 Step 1 - Create a virtual environment
  ```
 python -m venv course_venv
@@ -20,7 +20,7 @@ Step 2 - Actiavte the environemnt
 course_venv\Scripts\activate
  ```
 
-Step 3 - Actiavte the environemnt
+Step 3 - Activate the environemnt
  ```
 pip install -r requirements.txt
 
