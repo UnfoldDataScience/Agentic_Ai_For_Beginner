@@ -33,6 +33,6 @@ ipython kernel install --user --name=course_venv
 
 Step 5 - Select the installed kernel while using jupyter notebook 
  ```
-Do this step in Jupyter notebooks
+Do step 5 in Jupyter notebook
  ```
 
