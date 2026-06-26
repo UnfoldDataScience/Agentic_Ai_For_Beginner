@@ -15,7 +15,7 @@ Step 1 - Create a virtual environment
 python -m venv course_venv
  ```
 
-Step 2 - Actiavte the environemnt
+Step 2 - Activate the environemnt
  ```
 course_venv\Scripts\activate
  ```
