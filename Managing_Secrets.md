@@ -37,11 +37,11 @@ It is crucial **never to save your secret API key directly in your code files**.
     import os
     from dotenv import load_dotenv 
 
-    # This command loads the variables from the .env file
+    # This command loads the variables from the .env file (Given .env is present in same folder)
     env_path = r'.env full path here'
     load_dotenv(env_path)
 
-    #sample code for above step(commented intentionally)
+    #sample code for above step(commented intentionally - please note, you need to give full path if .env is not present in same folder from where you are running this code)
     #env_path = r'E:\YTReusable\.env'
     #load_dotenv(env_path)
 
