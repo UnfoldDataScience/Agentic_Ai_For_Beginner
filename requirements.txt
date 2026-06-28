@@ -1,5 +1,5 @@
 # IMPORTANT
-# This file is maintained for legacy compatibility only.
+# This file is maintained for legacy only.
 # Please use the section-specific(part Specific) requirements.txt files provided with each course section for the latest tested package versions.
 
 
