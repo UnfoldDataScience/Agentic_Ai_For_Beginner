@@ -1,4 +1,4 @@
-# Part 1 — Building Your First AI Agent
+# Part 1 - Building Your First AI Agent
 
 Notebook with title "Basic_Agent_Part_1_Colab.ipynb" was updated and tested for Google Colab compatibility.
 
@@ -84,7 +84,7 @@ To improve reliability and reduce dependency issues, updated notebooks and packa
 
 # Tested Environment
 
-Last Tested: May 2026
+Last Tested: August 2026
 
 Python Runtime:
 Google Colab
